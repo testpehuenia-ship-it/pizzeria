@@ -1,0 +1,14 @@
+services:
+  boston-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: 0600boston_app
+    restart: always
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env.local
+    environment:
+      - NODE_ENV=production
+      - PORT=3000

@@ -1,0 +1,25 @@
+{
+  "name": "0600Boston | Pizzería Artesanal",
+  "short_name": "0600Boston",
+  "description": "Pizzería artesanal 0600Boston - Pedí tu pizza favorita en segundos",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f141f",
+  "theme_color": "#15803d",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/brunodescarga.webp",
+      "sizes": "192x192 512x512",
+      "type": "image/webp",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/brunoagradece.webp",
+      "sizes": "192x192 512x512",
+      "type": "image/webp",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["food", "shopping"]
+}
