@@ -1,5 +1,5 @@
-/**
- * Utilidad global para salir y cerrar la aplicación 0600Boston.
+﻿/**
+ * Utilidad global para salir y cerrar la aplicación Trebol.
  * 
  * Acciones que realiza:
  * 1. Limpia la sesión del cliente y vacía el carrito en localStorage y Zustand.
@@ -13,7 +13,7 @@ export function salirYCerrarApp(): void {
 
   // 1. Limpiar estado persistido
   try {
-    const raw = localStorage.getItem("0600boston-store");
+    const raw = localStorage.getItem("trebol-store");
     if (raw) {
       const parsed = JSON.parse(raw);
       if (parsed?.state) {
@@ -23,7 +23,7 @@ export function salirYCerrarApp(): void {
         parsed.state.combos = [];
         parsed.state.domicilioEntrega = "";
       }
-      localStorage.setItem("0600boston-store", JSON.stringify(parsed));
+      localStorage.setItem("trebol-store", JSON.stringify(parsed));
     }
     sessionStorage.clear();
   } catch (e) {

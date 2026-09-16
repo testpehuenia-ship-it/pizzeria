@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server";
+﻿import { NextResponse } from "next/server";
 import { uploadToCloudinary } from "@/lib/cloudinary";
 import { writeFile, mkdir } from "fs/promises";
 import path from "path";
@@ -78,7 +78,7 @@ export async function POST(request: Request) {
     // 1. Si Cloudinary está configurado en variables de entorno, subimos la imagen optimizada transparente
     if (process.env.CLOUDINARY_CLOUD_NAME && process.env.CLOUDINARY_API_KEY) {
       try {
-        const secureUrl = await uploadToCloudinary(processedBuffer, "0600boston/productos");
+        const secureUrl = await uploadToCloudinary(processedBuffer, "trebol/productos");
         return NextResponse.json({
           success: true,
           url: secureUrl,

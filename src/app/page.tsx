@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
@@ -221,7 +221,7 @@ export default function HomePage() {
                   <span>Crear Cuenta de Cliente</span>
                 </h2>
                 <p className="text-[11px] text-emerald-200/80">
-                  Completá tus datos para disfrutar 0600Boston
+                  Completá tus datos para disfrutar Trebol
                 </p>
               </div>
               <button

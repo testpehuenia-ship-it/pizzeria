@@ -1,4 +1,4 @@
-export interface TiendaConfig {
+﻿export interface TiendaConfig {
   whatsappNumero: string; // ej: "2942661000"
   whatsappNumeroWaMe: string; // ej: "5492942661000"
   whatsappDisplay: string; // ej: "02942-661000"
@@ -11,7 +11,7 @@ export const CONFIG_DEFAULT: TiendaConfig = {
   whatsappNumero: "2942661000",
   whatsappNumeroWaMe: "5492942661000",
   whatsappDisplay: "02942-661000",
-  nombreLocal: "0600Boston",
+  nombreLocal: "Trebol",
   direccionLocal: "Zapala, Neuquén",
   updated_at: new Date().toISOString(),
 };

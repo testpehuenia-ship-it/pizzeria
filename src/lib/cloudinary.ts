@@ -1,4 +1,4 @@
-import { v2 as cloudinary } from "cloudinary";
+﻿import { v2 as cloudinary } from "cloudinary";
 
 cloudinary.config({
   cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
@@ -9,7 +9,7 @@ cloudinary.config({
 
 export async function uploadToCloudinary(
   fileBuffer: Buffer,
-  folder: string = "0600boston/productos"
+  folder: string = "trebol/productos"
 ): Promise<string> {
   // Si Cloudinary está configurado
   if (process.env.CLOUDINARY_CLOUD_NAME && process.env.CLOUDINARY_API_KEY) {

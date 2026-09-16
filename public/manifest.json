@@ -1,7 +1,7 @@
-{
-  "name": "0600Boston | Pizzería Artesanal",
-  "short_name": "0600Boston",
-  "description": "Pizzería artesanal 0600Boston - Pedí tu pizza favorita en segundos",
+﻿{
+  "name": "Trebol | Pizzería Artesanal",
+  "short_name": "Trebol",
+  "description": "Pizzería artesanal Trebol - Pedí tu pizza favorita en segundos",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0f141f",

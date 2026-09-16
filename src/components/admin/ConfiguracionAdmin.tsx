@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useEffect } from "react";
 import { TiendaConfig, normalizarNumeroWhatsApp } from "@/lib/settings-utils";
@@ -419,7 +419,7 @@ export function ConfiguracionAdmin({
 
             <a
               href={`https://wa.me/${previewNormalizado.whatsappNumeroWaMe}?text=${encodeURIComponent(
-                "¡Hola! Mensaje de prueba desde el Panel de Administración de 0600Boston."
+                "¡Hola! Mensaje de prueba desde el Panel de Administración de Trebol."
               )}`}
               target="_blank"
               rel="noreferrer"

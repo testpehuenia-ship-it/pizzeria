@@ -1,8 +1,8 @@
-@echo off
+﻿@echo off
 chcp 65001 >nul
-title 0600Boston - Iniciador de Proyecto
+title Trebol - Iniciador de Proyecto
 echo ========================================================
-echo        🍕 0600BOSTON - INICIADOR PARA OTRA PC
+echo        🍕 TREBOL - INICIADOR PARA OTRA PC
 echo ========================================================
 echo.
 

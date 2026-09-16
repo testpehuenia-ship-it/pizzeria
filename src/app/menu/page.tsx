@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect } from "react";
 import { useTiendaStore } from "@/lib/store";
@@ -89,7 +89,7 @@ export default function MenuPage() {
       return;
     }
     if (Notification.permission === "granted") {
-      setNotifStatusMsg("✅ Notificaciones activas: ¡Estás al día con las ofertas de 0600Boston!");
+      setNotifStatusMsg("✅ Notificaciones activas: ¡Estás al día con las ofertas de Trebol!");
       setTimeout(() => setNotifStatusMsg(""), 3500);
     } else if (Notification.permission === "default") {
       try {
@@ -98,7 +98,7 @@ export default function MenuPage() {
           localStorage.setItem("pwa_notif_accepted", "true");
           setNotifStatusMsg("🎉 ¡Notificaciones activadas con éxito!");
           setTimeout(() => setNotifStatusMsg(""), 3500);
-          new Notification("0600Boston 🍕🍀", {
+          new Notification("Trebol 🍕🍀", {
             body: "¡Notificaciones activadas! Te avisaremos de nuestras mejores ofertas.",
             icon: "/images/brunoagradece.webp",
           });
@@ -220,7 +220,7 @@ export default function MenuPage() {
                 🎁 Promos Especiales
               </span>
               <h2 className="text-2xl font-black text-[#14532d] mt-1 tracking-tight">
-                Combos 0600Boston
+                Combos Trebol
               </h2>
               <p className="text-xs text-[#4b6b55] mt-0.5">
                 Elegí tu combo favorito con pizza y bebida incluida al mejor precio

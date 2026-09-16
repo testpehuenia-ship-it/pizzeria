@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect } from "react";
 import { useTiendaStore } from "@/lib/store";
@@ -209,7 +209,7 @@ export default function PwaPrompts() {
       localStorage.setItem("pwa_installed", "true");
       localStorage.setItem("pwa_downloaded", "true");
       alert(
-        "Para instalar 0600Boston en tu celular, haz clic en el menú del navegador (tres puntos ⋮ o compartir) y selecciona 'Instalar aplicación' o 'Agregar a pantalla de inicio'."
+        "Para instalar Trebol en tu celular, haz clic en el menú del navegador (tres puntos ⋮ o compartir) y selecciona 'Instalar aplicación' o 'Agregar a pantalla de inicio'."
       );
       setStep("none");
     }
@@ -251,7 +251,7 @@ export default function PwaPrompts() {
 
         // Notificación de bienvenida local
         try {
-          new Notification("¡Bienvenido a 0600Boston! 🍕🍀", {
+          new Notification("¡Bienvenido a Trebol! 🍕🍀", {
             body: "¡Genial! Vas a ser el primero en recibir nuestras ofertas relámpago y promociones exclusivas.",
             icon: "/images/brunoagradece.webp",
           });
@@ -332,7 +332,7 @@ export default function PwaPrompts() {
               <div>
                 <div className="flex items-center gap-2 mb-3">
                   <span className="inline-flex items-center gap-1 text-[10px] sm:text-xs font-black uppercase tracking-wider text-emerald-300 bg-black/30 backdrop-blur-sm border border-emerald-400/50 px-2.5 py-0.5 rounded-full shadow-[inset_0_1px_1px_rgba(255,255,255,0.15)]">
-                    🍀 Web App Oficial 0600Boston
+                    🍀 Web App Oficial Trebol
                   </span>
                 </div>
 
@@ -420,7 +420,7 @@ export default function PwaPrompts() {
                 </div>
 
                 <h3 className="text-lg font-black text-white mb-2 drop-shadow-md">
-                  Cómo agregar 0600Boston a tu pantalla:
+                  Cómo agregar Trebol a tu pantalla:
                 </h3>
 
                 <div className="space-y-3 bg-black/30 backdrop-blur-sm border border-emerald-400/25 rounded-2xl p-4 mb-4 text-xs shadow-[inset_0_1px_1px_rgba(255,255,255,0.15)]">
@@ -465,7 +465,7 @@ export default function PwaPrompts() {
               <div>
                 <div className="flex items-center gap-2 mb-3">
                   <span className="inline-flex items-center gap-1 text-[10px] sm:text-xs font-black uppercase tracking-wider text-emerald-300 bg-black/30 backdrop-blur-sm border border-emerald-400/50 px-2.5 py-0.5 rounded-full shadow-[inset_0_1px_1px_rgba(255,255,255,0.15)]">
-                    🎉 ¡Gracias por sumar 0600Boston!
+                    🎉 ¡Gracias por sumar Trebol!
                   </span>
                 </div>
 

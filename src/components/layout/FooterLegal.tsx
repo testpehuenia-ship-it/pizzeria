@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import Link from "next/link";
 
 interface FooterLegalProps {
@@ -22,7 +22,7 @@ export default function FooterLegal({
     >
       <div className="max-w-md mx-auto flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 flex-wrap">
         <span className="font-semibold">
-          © Derechos 0600Boston 2026
+          © Derechos Trebol 2026
         </span>
 
         <span className="hidden sm:inline opacity-40">•</span>

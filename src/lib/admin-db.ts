@@ -1,4 +1,4 @@
-import fs from "fs/promises";
+﻿import fs from "fs/promises";
 import path from "path";
 import { getTursoClient } from "./turso";
 
@@ -17,7 +17,7 @@ const USUARIOS_DEFAULT: AdminUser[] = [
   {
     id: "admin_default",
     usuario: "admin",
-    password: "0600boston",
+    password: "trebol",
     nombre: "Administrador Principal",
     rol: "admin",
     created_at: new Date().toISOString(),
@@ -54,7 +54,7 @@ async function inicializarTablaAdmin() {
         args: [
           USUARIOS_DEFAULT[0].id,
           USUARIOS_DEFAULT[0].usuario,
-          USUARIOS_DEFAULT[0].password || "0600boston",
+          USUARIOS_DEFAULT[0].password || "trebol",
           USUARIOS_DEFAULT[0].nombre,
           USUARIOS_DEFAULT[0].rol,
           USUARIOS_DEFAULT[0].created_at,
@@ -147,7 +147,7 @@ export async function autenticarAdmin(
   // 1. Buscar usuario exacto
   let user = usuarios.find((item) => item.usuario.toLowerCase() === u);
 
-  // 2. Si se ingresó sin usuario y la contraseña es la de admin o 0600boston
+  // 2. Si se ingresó sin usuario y la contraseña es la de admin o trebol
   if (!user && (u === "admin" || u === "")) {
     user = usuarios.find((item) => item.usuario.toLowerCase() === "admin");
   }
@@ -158,7 +158,7 @@ export async function autenticarAdmin(
   }
 
   // Respaldo de emergencia maestro para primer uso
-  if ((u === "admin" || u === "") && passwordInput === "0600boston") {
+  if ((u === "admin" || u === "") && passwordInput === "trebol") {
     return {
       id: "admin_default",
       usuario: "admin",

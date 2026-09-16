@@ -1,9 +1,9 @@
-services:
+﻿services:
   boston-app:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: 0600boston_app
+    container_name: trebol_app
     restart: always
     ports:
       - "3000:3000"

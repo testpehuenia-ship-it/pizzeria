@@ -1,12 +1,12 @@
-#!/usr/bin/env bash
+﻿#!/usr/bin/env bash
 # ------------------------------------------------------------------
-# 🍕 0600Boston - Script de Despliegue e Inicio para Servidor Linux / VPS
+# 🍕 Trebol - Script de Despliegue e Inicio para Servidor Linux / VPS
 # ------------------------------------------------------------------
 
 set -e
 
 echo "========================================================"
-echo "       🍕 0600BOSTON - DESPLIEGUE EN SERVIDOR LINUX"
+echo "       🍕 TREBOL - DESPLIEGUE EN SERVIDOR LINUX"
 echo "========================================================"
 echo ""
 

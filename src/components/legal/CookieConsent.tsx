@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
@@ -62,7 +62,7 @@ export default function CookieConsent() {
               </span>
             </h4>
             <p className="text-slate-300 leading-relaxed text-[11px]">
-              En <strong>0600Boston</strong> utilizamos almacenamiento local y cookies técnicas para recordar tu pedido, guardar tu carrito y ofrecerte la mejor experiencia gastronómica. Cumplimos con las normativas internacionales de protección de datos (RGPD de la UE y LGPD).
+              En <strong>Trebol</strong> utilizamos almacenamiento local y cookies técnicas para recordar tu pedido, guardar tu carrito y ofrecerte la mejor experiencia gastronómica. Cumplimos con las normativas internacionales de protección de datos (RGPD de la UE y LGPD).
             </p>
             <div className="text-[10px] text-emerald-400 font-semibold">
               <Link href="/privacidad" className="hover:underline flex items-center gap-1">

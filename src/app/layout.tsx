@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from "next";
+﻿import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import PwaPrompts from "@/components/pwa/PwaPrompts";
 import CookieConsent from "@/components/legal/CookieConsent";
@@ -12,18 +12,18 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "0600Boston | La Mejor Pizza Artesanal",
+  title: "Trebol | La Mejor Pizza Artesanal",
   description:
-    "Pizzería artesanal 0600Boston: Gran Variedad de pizzas Artesanales, masa madre, carrusel 3D interactivo con toppings en tiempo real, combos exclusivos y pedidos directos por WhatsApp.",
+    "Pizzería artesanal Trebol: Gran Variedad de pizzas Artesanales, masa madre, carrusel 3D interactivo con toppings en tiempo real, combos exclusivos y pedidos directos por WhatsApp.",
   manifest: "/manifest.json",
-  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || "https://www.0600boston.com.ar"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || "https://www.trebol.com.ar"),
   alternates: {
     canonical: "/",
   },
   keywords: [
     "pizza",
     "pizzería",
-    "0600boston",
+    "trebol",
     "pizza artesanal",
     "delivery pizza buenos aires",
     "gran variedad de pizzas",
@@ -32,15 +32,15 @@ export const metadata: Metadata = {
     "pizza napolitana",
   ],
   authors: [
-    { name: "0600Boston" },
+    { name: "Trebol" },
     { name: "ADNQN.ar", url: "https://adnqn.ar" },
   ],
   creator: "ADNQN.ar (https://adnqn.ar)",
-  publisher: "0600Boston",
+  publisher: "Trebol",
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
-    title: "0600Boston",
+    title: "Trebol",
   },
   icons: {
     icon: [
@@ -54,38 +54,38 @@ export const metadata: Metadata = {
     shortcut: "/favicon.ico",
   },
   openGraph: {
-    title: "0600Boston | La Mejor Pizza Artesanal",
+    title: "Trebol | La Mejor Pizza Artesanal",
     description:
       "Gran Variedad de pizzas Artesanales. Armá tu pizza con topping interactivo y pedí al instante por WhatsApp.",
-    url: "https://www.0600boston.com.ar",
-    siteName: "0600Boston",
+    url: "https://www.trebol.com.ar",
+    siteName: "Trebol",
     locale: "es_AR",
     type: "website",
     images: [
       {
-        url: "https://www.0600boston.com.ar/images/BrunoAgradece02.webp",
-        secureUrl: "https://www.0600boston.com.ar/images/BrunoAgradece02.webp",
+        url: "https://www.trebol.com.ar/images/BrunoAgradece02.webp",
+        secureUrl: "https://www.trebol.com.ar/images/BrunoAgradece02.webp",
         width: 800,
         height: 800,
-        alt: "0600Boston - Pizzería Artesanal",
+        alt: "Trebol - Pizzería Artesanal",
         type: "image/webp",
       },
       {
-        url: "https://www.0600boston.com.ar/images/BrunoAgradece02.png",
-        secureUrl: "https://www.0600boston.com.ar/images/BrunoAgradece02.png",
+        url: "https://www.trebol.com.ar/images/BrunoAgradece02.png",
+        secureUrl: "https://www.trebol.com.ar/images/BrunoAgradece02.png",
         width: 800,
         height: 800,
-        alt: "0600Boston - Pizzería Artesanal",
+        alt: "Trebol - Pizzería Artesanal",
         type: "image/png",
       },
     ],
   },
   twitter: {
     card: "summary",
-    title: "0600Boston | La Mejor Pizza Artesanal",
+    title: "Trebol | La Mejor Pizza Artesanal",
     description:
       "Gran Variedad de pizzas Artesanales con carrusel interactivo y pedidos directos por WhatsApp.",
-    images: ["https://www.0600boston.com.ar/images/BrunoAgradece02.webp"],
+    images: ["https://www.trebol.com.ar/images/BrunoAgradece02.webp"],
   },
   other: {
     "geo.region": "AR-B",
@@ -93,7 +93,7 @@ export const metadata: Metadata = {
     "geo.position": "-34.6037;-58.3816",
     ICBM: "-34.6037, -58.3816",
     designer: "ADNQN.ar",
-    copyright: "Derechos 0600Boston 2026 - Producido by ADNQN.ar",
+    copyright: "Derechos Trebol 2026 - Producido by ADNQN.ar",
   },
 };
 
@@ -101,10 +101,10 @@ export const metadata: Metadata = {
 const schemaJsonLd = {
   "@context": "https://schema.org",
   "@type": "FastFoodRestaurant",
-  name: "0600Boston - Pizzería Artesanal",
-  image: "https://www.0600boston.com.ar/images/BrunoAgradece02.webp",
-  "@id": "https://www.0600boston.com.ar",
-  url: "https://www.0600boston.com.ar",
+  name: "Trebol - Pizzería Artesanal",
+  image: "https://www.trebol.com.ar/images/BrunoAgradece02.webp",
+  "@id": "https://www.trebol.com.ar",
+  url: "https://www.trebol.com.ar",
   telephone: "+54 9 11 0000-0000",
   priceRange: "$$",
   servesCuisine: ["Pizza", "Pizzería Artesanal", "Comida Rápida", "Bebidas"],
@@ -128,8 +128,8 @@ const schemaJsonLd = {
       closes: "23:59",
     },
   ],
-  menu: "https://www.0600boston.com.ar/menu",
-  hasMenu: "https://www.0600boston.com.ar/menu",
+  menu: "https://www.trebol.com.ar/menu",
+  hasMenu: "https://www.trebol.com.ar/menu",
   acceptsReservations: "False",
 };
 

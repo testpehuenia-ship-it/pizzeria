@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
@@ -137,7 +137,7 @@ export default function AdminDashboardPage() {
             <div>
               <div className="flex items-center gap-2">
                 <span className="font-black text-white text-base tracking-wide">
-                  0600Boston <span className="text-emerald-400">Panel Admin</span>
+                  Trebol <span className="text-emerald-400">Panel Admin</span>
                 </span>
                 <span className="text-[10px] bg-emerald-500/10 text-emerald-300 border border-emerald-500/30 px-2 py-0.5 rounded-full font-mono">
                   v2.0 Full Control
@@ -376,7 +376,7 @@ export default function AdminDashboardPage() {
                       <span>Clientes Registrados ({clientes.length})</span>
                     </h3>
                     <p className="text-xs text-slate-400">
-                      Base de datos en tiempo real de clientes con pedidos y cuentas en 0600Boston
+                      Base de datos en tiempo real de clientes con pedidos y cuentas en Trebol
                     </p>
                   </div>
                   <button
@@ -440,7 +440,7 @@ export default function AdminDashboardPage() {
 
                           <a
                             href={`https://wa.me/${c.telefono.replace(/[^0-9]/g, "")}?text=${encodeURIComponent(
-                              `¡Hola ${c.nombre}! 🍕 Te escribimos de 0600Boston. Ya podés recibir nuestras promociones relámpago, cupones y novedades directamente en tu celular. Ingresá a la tienda y tocá "Permitir notificaciones": ${typeof window !== "undefined" ? window.location.origin : "https://0600boston.com"}`
+                              `¡Hola ${c.nombre}! 🍕 Te escribimos de Trebol. Ya podés recibir nuestras promociones relámpago, cupones y novedades directamente en tu celular. Ingresá a la tienda y tocá "Permitir notificaciones": ${typeof window !== "undefined" ? window.location.origin : "https://trebol.com"}`
                             )}`}
                             target="_blank"
                             rel="noreferrer"

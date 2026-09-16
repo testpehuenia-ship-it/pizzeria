@@ -1,6 +1,6 @@
-# 🍕 0600Boston - Guía de Instalación y Despliegue
+﻿# 🍕 Trebol - Guía de Instalación y Despliegue
 
-Este paquete contiene la aplicación completa de **0600Boston (PWA + Panel Admin + Notificaciones Push + Catálogo + Carrito)** lista para ser instalada y ejecutada en:
+Este paquete contiene la aplicación completa de **Trebol (PWA + Panel Admin + Notificaciones Push + Catálogo + Carrito)** lista para ser instalada y ejecutada en:
 1. **Otra PC** (Windows / macOS / Linux para desarrollo o uso local).
 2. **Un Servidor VPS o Servidor Local** (Ubuntu / Debian / Docker / PM2).
 
@@ -49,7 +49,7 @@ Este paquete contiene la aplicación completa de **0600Boston (PWA + Panel Admin
 ## 🌐 OPCIÓN 2: Despliegue en Servidor Linux (VPS / Ubuntu / Debian)
 
 ### Paso 1: Subir el proyecto al servidor
-Copia la carpeta o el `.zip` a tu servidor (por ejemplo en `/var/www/0600boston`).
+Copia la carpeta o el `.zip` a tu servidor (por ejemplo en `/var/www/trebol`).
 
 ### Paso 2: Ejecutar el script automático
 Dentro de la carpeta del proyecto en el servidor, ejecuta:
@@ -66,10 +66,10 @@ El script se encargará de instalar las dependencias, compilar Next.js y levanta
 pm2 status
 
 # Ver logs en tiempo real
-pm2 logs 0600boston
+pm2 logs trebol
 
 # Reiniciar la aplicación
-pm2 restart 0600boston
+pm2 restart trebol
 
 # Hacer que inicie automáticamente al reiniciar el VPS
 pm2 startup
@@ -136,7 +136,7 @@ NEXT_PUBLIC_WHATSAPP_LOCAL=02942661000
 # 4. Notificaciones Web Push (VAPID)
 NEXT_PUBLIC_VAPID_PUBLIC_KEY=BN7tSmYOVn5xpS62Oh6BXj108jgjpm3_dqUTEtNroFd9M3ta4g7mvi8poYPuujFIvhHpT2F71A_yEFmqlWD5tAQ
 VAPID_PRIVATE_KEY=L_lMB8AfbkHxRn-ACAqQJ9ilqH6SdsP6YxpUdx4BZjE
-VAPID_SUBJECT=mailto:soporte@0600boston.com
+VAPID_SUBJECT=mailto:soporte@trebol.com
 ```
 
 ---

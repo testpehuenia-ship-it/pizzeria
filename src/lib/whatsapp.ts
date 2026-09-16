@@ -1,4 +1,4 @@
-import { WHATSAPP_NUMERO } from "./data";
+﻿import { WHATSAPP_NUMERO } from "./data";
 import { ItemCarritoPizza, ItemCarritoBebida, ItemCarritoCombo, Cliente } from "./store";
 
 export function generarMensajeWhatsApp(
@@ -17,7 +17,7 @@ export function generarMensajeWhatsApp(
   combos?: ItemCarritoCombo[],
   telefonoDestino?: string
 ): string {
-  let msg = `🍕 *PEDIDO - 0600BOSTON*\n`;
+  let msg = `🍕 *PEDIDO - TREBOL*\n`;
   msg += `━━━━━━━━━━━━━━━━━━━━━\n`;
   
   if (cliente) {

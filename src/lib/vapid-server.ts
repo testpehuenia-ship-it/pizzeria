@@ -1,11 +1,11 @@
-import webpush from "web-push";
+﻿import webpush from "web-push";
 import { DEFAULT_VAPID_PUBLIC_KEY, getVapidPublicKey } from "./vapid-keys";
 
 export const DEFAULT_VAPID_PRIVATE_KEY =
   "L_lMB8AfbkHxRn-ACAqQJ9ilqH6SdsP6YxpUdx4BZjE";
 
 export const DEFAULT_VAPID_SUBJECT =
-  "mailto:soporte@0600boston.com";
+  "mailto:soporte@trebol.com";
 
 export function getVapidPrivateKey(): string {
   const env = process.env.VAPID_PRIVATE_KEY;

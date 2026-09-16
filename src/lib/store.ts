@@ -1,4 +1,4 @@
-import { create } from "zustand";
+﻿import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
 import { PizzaDataType, BebidaDataType, AderezoDataType } from "./data";
 import { ComboDataType } from "./catalog-db";
@@ -185,7 +185,7 @@ export const useTiendaStore = create<EstadoTienda>()(
       },
     }),
     {
-      name: "0600boston-store",
+      name: "trebol-store",
       storage: createJSONStorage(() => (typeof window !== "undefined" ? localStorage : {
         getItem: () => null,
         setItem: () => {},

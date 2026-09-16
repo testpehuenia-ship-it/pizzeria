@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
@@ -26,7 +26,7 @@ export default function CerradoPage() {
     } catch {}
 
     // 2. Si la política de seguridad del navegador bloquea scripts para cerrar pestañas directas:
-    // Redirigir a una página en blanco limpia para salir del dominio 0600Boston
+    // Redirigir a una página en blanco limpia para salir del dominio Trebol
     setTimeout(() => {
       try {
         window.location.replace("about:blank");
@@ -50,7 +50,7 @@ export default function CerradoPage() {
             ¡Gracias por visitarnos!
           </h1>
           <p className="text-xs text-slate-300 mt-1.5 leading-relaxed">
-            Has salido de <strong>0600Boston</strong>. Tu sesión y pedidos activos han finalizado y tus datos se han limpiado.
+            Has salido de <strong>Trebol</strong>. Tu sesión y pedidos activos han finalizado y tus datos se han limpiado.
           </p>
         </div>
 

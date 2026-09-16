@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
@@ -61,11 +61,11 @@ export function AnimacionCaja({ pizzaNombre, onCerrar }: AnimacionCajaProps) {
                 <span className="text-xl animate-bounce" style={{ animationDuration: "1.1s" }}>♨️</span>
               </div>
 
-              {/* Caja de Pizza 0600Boston con trébol */}
+              {/* Caja de Pizza Trebol con trébol */}
               <div className="w-32 h-32 rounded-2xl bg-gradient-to-br from-[#c9935a] via-[#a66e38] to-[#78350f] border-2 border-emerald-600/60 shadow-xl flex flex-col items-center justify-center relative animate-pulse-subtle">
                 <span className="text-4xl drop-shadow">🍕</span>
                 <div className="mt-1 bg-white/95 px-2 py-0.5 rounded-full text-[9px] font-black tracking-widest text-[#15803d] shadow-sm uppercase flex items-center gap-1">
-                  <span>🍀</span> 0600BOSTON
+                  <span>🍀</span> TREBOL
                 </div>
               </div>
             </div>

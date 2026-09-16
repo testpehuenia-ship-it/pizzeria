@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server";
+﻿import { NextResponse } from "next/server";
 import {
   listarUsuariosAdmin,
   crearUsuarioAdmin,
@@ -49,7 +49,7 @@ export async function POST(request: Request) {
       // Validar contraseña actual solo si se especifica
       if (passwordActual) {
         const check = await autenticarAdmin(usuario, passwordActual);
-        if (!check && passwordActual !== "0600boston") {
+        if (!check && passwordActual !== "trebol") {
           return NextResponse.json(
             { success: false, error: "La contraseña actual no es correcta." },
             { status: 401 }

@@ -1,11 +1,11 @@
-"use client";
+﻿"use client";
 
 import React from "react";
 
 export default function BackgroundVideo() {
   return (
     <div className="absolute inset-0 overflow-hidden bg-black">
-      {/* Video Real de Portada 0600Boston Nítido y Optimizado con Cloudinary */}
+      {/* Video Real de Portada Trebol Nítido y Optimizado con Cloudinary */}
       <video
         autoPlay
         loop
@@ -18,12 +18,12 @@ export default function BackgroundVideo() {
       >
         {/* Fuente ultra comprimida WebM para Chrome / Firefox / Android / Edge */}
         <source
-          src="https://res.cloudinary.com/dzn2sdcam/video/upload/q_auto,f_auto/v1788566702/0600boston/videos/portadapizza.webm"
+          src="https://res.cloudinary.com/dzn2sdcam/video/upload/q_auto,f_auto/v1788566702/trebol/videos/portadapizza.webm"
           type="video/webm"
         />
         {/* Fuente optimizada MP4 para Safari / iOS y navegadores estándar */}
         <source
-          src="https://res.cloudinary.com/dzn2sdcam/video/upload/q_auto,f_auto/v1788566702/0600boston/videos/portadapizza.mp4"
+          src="https://res.cloudinary.com/dzn2sdcam/video/upload/q_auto,f_auto/v1788566702/trebol/videos/portadapizza.mp4"
           type="video/mp4"
         />
         {/* Fallback local */}

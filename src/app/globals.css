@@ -1,4 +1,4 @@
-@import "tailwindcss";
+﻿@import "tailwindcss";
 
 @theme {
   --color-primary: #15803d;
@@ -110,7 +110,7 @@ body {
   animation: pulseSubtle 2s infinite ease-in-out;
 }
 
-/* Transiciones de salida y entrada: Efecto Rueda de Pizza 0600Boston (Rolling Wheel) */
+/* Transiciones de salida y entrada: Efecto Rueda de Pizza Trebol (Rolling Wheel) */
 @keyframes pizzaWheelExitLeft {
   0% {
     opacity: 1;

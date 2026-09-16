@@ -1,4 +1,4 @@
-import fs from "fs/promises";
+﻿import fs from "fs/promises";
 import path from "path";
 import { getTursoClient } from "./turso";
 
@@ -51,7 +51,7 @@ interface PushDataStore {
 export const PLANTILLA_BIENVENIDA_NOMBRE: PushTemplateItem = {
   id: "tmpl_bienvenida_personalizada",
   nombre: "Bienvenida Personalizada {nombre}",
-  titulo: "¡Bienvenido a 0600Boston, {nombre}! 🍕🍀",
+  titulo: "¡Bienvenido a Trebol, {nombre}! 🍕🍀",
   mensaje: "Hola {nombre}, gracias por sumarte a nuestra App. Mirá las pizzas y promos con descuento para vos hoy.",
   url: "/menu",
   icono: "🍀",
@@ -63,7 +63,7 @@ const DEFAULT_PUSH_DATA: PushDataStore = {
   historial: [
     {
       id: "push_1",
-      titulo: "¡Bienvenido a 0600Boston! 🍕🍀",
+      titulo: "¡Bienvenido a Trebol! 🍕🍀",
       mensaje: "Gracias por sumarte. Mirá las pizzas artesanales y combos que tenemos para vos hoy.",
       url: "/menu",
       icono: "🍀",

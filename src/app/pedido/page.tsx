@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
@@ -496,7 +496,7 @@ export default function PedidoPage() {
               ¡Pedido Enviado a WhatsApp!
             </h3>
             <p className="text-xs text-[#4b6b55] mb-6 leading-relaxed">
-              El detalle de tu pedido y el importe fueron enviados a la cocina de 0600Boston.<br />
+              El detalle de tu pedido y el importe fueron enviados a la cocina de Trebol.<br />
               Cerrando pedido y regresando a la portada...
             </p>
 

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
@@ -41,7 +41,7 @@ export default function AdminLoginPage() {
       const passwordGuardado = typeof window !== "undefined" ? localStorage.getItem("adminPassword0600") : null;
       if (
         (usuario.toLowerCase() === "admin" || !usuario) &&
-        (password === passwordGuardado || password === "0600boston")
+        (password === passwordGuardado || password === "trebol")
       ) {
         if (typeof window !== "undefined") {
           localStorage.setItem("adminAuth0600", "true");
@@ -59,7 +59,7 @@ export default function AdminLoginPage() {
     } catch {
       // 3. Fallback si no hay conexión a internet / servidor
       const passwordGuardado = typeof window !== "undefined" ? localStorage.getItem("adminPassword0600") : null;
-      if (password === passwordGuardado || password === "0600boston") {
+      if (password === passwordGuardado || password === "trebol") {
         if (typeof window !== "undefined") {
           localStorage.setItem("adminAuth0600", "true");
           localStorage.setItem(
@@ -123,7 +123,7 @@ export default function AdminLoginPage() {
               onChange={(e) => setPassword(e.target.value)}
               required
               className="w-full bg-[#0d121c] border border-white/10 rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-emerald-500 transition-all"
-              placeholder="Clave inicial: 0600boston"
+              placeholder="Clave inicial: trebol"
             />
           </div>
 

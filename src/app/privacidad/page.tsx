@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState } from "react";
 import Link from "next/link";
@@ -57,7 +57,7 @@ export default function PrivacidadPage() {
             Política de Privacidad y Protección de Datos
           </h1>
           <p className="text-xs sm:text-sm text-slate-400 max-w-xl mx-auto leading-relaxed">
-            En <strong>0600Boston</strong> nos tomamos muy en serio la seguridad y confidencialidad de tu información personal de acuerdo con los estándares internacionales más rigurosos.
+            En <strong>Trebol</strong> nos tomamos muy en serio la seguridad y confidencialidad de tu información personal de acuerdo con los estándares internacionales más rigurosos.
           </p>
         </div>
 
@@ -76,7 +76,7 @@ export default function PrivacidadPage() {
               <span>Responsable del Tratamiento de Datos</span>
             </h2>
             <p>
-              El responsable del tratamiento de los datos recabados en esta plataforma web y PWA es <strong>0600Boston</strong> (en adelante, "la Pizzería"), con domicilio operativo en Buenos Aires, Argentina. Para cualquier consulta o ejercicio de derechos, podés contactarnos directamente a través de nuestros canales oficiales de WhatsApp o por correo electrónico.
+              El responsable del tratamiento de los datos recabados en esta plataforma web y PWA es <strong>Trebol</strong> (en adelante, "la Pizzería"), con domicilio operativo en Buenos Aires, Argentina. Para cualquier consulta o ejercicio de derechos, podés contactarnos directamente a través de nuestros canales oficiales de WhatsApp o por correo electrónico.
             </p>
           </section>
 
@@ -206,7 +206,7 @@ export default function PrivacidadPage() {
             className="inline-flex items-center gap-2 text-xs font-bold text-slate-400 hover:text-emerald-400 transition-colors"
           >
             <span>←</span>
-            <span>Volver a la portada de 0600Boston</span>
+            <span>Volver a la portada de Trebol</span>
           </Link>
         </div>
       </main>

@@ -1,5 +1,5 @@
-// Service Worker para PWA 0600Boston con soporte completo para Notificaciones Push (W3C Web Push)
-const CACHE_NAME = "0600boston-v2";
+﻿// Service Worker para PWA Trebol con soporte completo para Notificaciones Push (W3C Web Push)
+const CACHE_NAME = "trebol-v2";
 
 self.addEventListener("install", (event) => {
   self.skipWaiting();
@@ -23,8 +23,8 @@ self.addEventListener("fetch", (event) => {
 // Evento Push recibido desde el servidor mediante protocolo Web Push
 self.addEventListener("push", (event) => {
   let data = {
-    title: "0600Boston 🍕🍀",
-    body: "¡Tenés una nueva oferta disponible en 0600Boston!",
+    title: "Trebol 🍕🍀",
+    body: "¡Tenés una nueva oferta disponible en Trebol!",
     icon: "/images/brunoagradece.webp",
     badge: "/images/brunoagradece.webp",
     url: "/menu",

@@ -1,4 +1,4 @@
-const sharp = require('sharp');
+﻿const sharp = require('sharp');
 const fs = require('fs');
 const path = require('path');
 
@@ -74,7 +74,7 @@ async function createOgAssets() {
       <!-- URL Badge / CTA -->
       <rect x="70" y="490" width="370" height="56" rx="18" fill="#10b981" fill-opacity="0.2" stroke="#34d399" stroke-width="2"/>
       <text x="100" y="526" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" fill="#ffffff">
-        🌐 www.0600boston.com.ar
+        🌐 www.trebol.com.ar
       </text>
     </svg>
   `);

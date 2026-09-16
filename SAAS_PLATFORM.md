@@ -1,13 +1,13 @@
-# 🍕 0600Boston | Plataforma Web SaaS & PWA Gastronómica
+﻿# 🍕 Trebol | Plataforma Web SaaS & PWA Gastronómica
 
-> **Derechos 0600Boston 2026**  
+> **Derechos Trebol 2026**  
 > **Producido by [ADNQN.ar](https://adnqn.ar/)** — *Desarrollo de Software, Transformación Digital y Soluciones Tecnológicas de Alta Gama.*
 
 ---
 
 ## 🌟 1. Visión General del Producto (SaaS)
 
-**0600Boston** es una plataforma SaaS (Software as a Service) y aplicación web progresiva (**PWA**) especializada en gastronomía de alta gama para pizzerías artesanales. Su modelo de negocio se basa en el **comercio directo al consumidor (D2C)**, eliminando las altas comisiones de plataformas de terceros (como PedidosYa o Rappi) y canalizando las conversiones directamente hacia la atención automatizada por **WhatsApp Business**.
+**Trebol** es una plataforma SaaS (Software as a Service) y aplicación web progresiva (**PWA**) especializada en gastronomía de alta gama para pizzerías artesanales. Su modelo de negocio se basa en el **comercio directo al consumidor (D2C)**, eliminando las altas comisiones de plataformas de terceros (como PedidosYa o Rappi) y canalizando las conversiones directamente hacia la atención automatizada por **WhatsApp Business**.
 
 ### Propuesta de Valor
 - **Experiencia Inmersiva 3D**: Carrusel interactivo continuo donde la pizza gira y responde a gestos táctiles en celulares y clics/arrastre con el mouse en PC.
@@ -121,7 +121,7 @@
 ## 📜 7. Créditos y Propiedad Intelectual
 
 ```text
-© Derechos 0600Boston 2026 - Todos los derechos reservados.
+© Derechos Trebol 2026 - Todos los derechos reservados.
 Producido y Desarrollado by ADNQN.ar
 Sitio Web Oficial: https://adnqn.ar/
 Contacto y Soporte: contacto@adnqn.ar

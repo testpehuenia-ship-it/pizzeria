@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState } from "react";
 import { CategoriaConfig, IngredienteCatalogItem } from "@/lib/catalog-db";
@@ -270,7 +270,7 @@ export function CategoriasNuevasAdmin({
                   </div>
                 ) : (
                   <p className="text-xs text-slate-400 italic mt-2">
-                    Categoría núcleo del menú de 0600Boston.
+                    Categoría núcleo del menú de Trebol.
                   </p>
                 )}
               </div>

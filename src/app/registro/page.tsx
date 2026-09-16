@@ -1,7 +1,7 @@
-import FormularioRegistro from "@/components/registro/FormularioRegistro";
+﻿import FormularioRegistro from "@/components/registro/FormularioRegistro";
 
 export const metadata = {
-  title: "Registro de Cliente | 0600Boston",
+  title: "Registro de Cliente | Trebol",
 };
 
 export default function RegistroPage() {

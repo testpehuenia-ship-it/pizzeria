@@ -1,5 +1,5 @@
-# ----------------------------------------------------
-# 🍕 0600Boston - Dockerfile de Producción Multi-Stage
+﻿# ----------------------------------------------------
+# 🍕 Trebol - Dockerfile de Producción Multi-Stage
 # ----------------------------------------------------
 FROM node:20-alpine AS deps
 WORKDIR /app

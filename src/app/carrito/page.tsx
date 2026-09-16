@@ -1,8 +1,8 @@
-import { ResumenCarrito } from "@/components/carrito/ResumenCarrito";
+﻿import { ResumenCarrito } from "@/components/carrito/ResumenCarrito";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Tu Carrito | 0600Boston",
+  title: "Tu Carrito | Trebol",
 };
 
 export default function CarritoPage() {
@@ -15,7 +15,7 @@ export default function CarritoPage() {
         >
           ← Volver al Menú
         </Link>
-        <span className="text-sm font-black text-[#14532d]">0600Boston 🍕</span>
+        <span className="text-sm font-black text-[#14532d]">Trebol 🍕</span>
       </div>
 
       <ResumenCarrito />

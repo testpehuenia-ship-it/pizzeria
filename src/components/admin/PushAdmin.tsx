@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import { PushNotificationRecord, PushTemplateItem } from "@/lib/push-db";
@@ -80,7 +80,7 @@ export function PushAdmin({ onMostrarNotificacion }: PushAdminProps) {
   };
 
   // Formulario de emisión (precargado con plantilla de bienvenida personalizada)
-  const [formTitulo, setFormTitulo] = useState("¡Bienvenido a 0600Boston, {nombre}! 🍕🍀");
+  const [formTitulo, setFormTitulo] = useState("¡Bienvenido a Trebol, {nombre}! 🍕🍀");
   const [formMensaje, setFormMensaje] = useState("Hola {nombre}, gracias por sumarte a nuestra App. Mirá las pizzas artesanales y promos con descuento para vos hoy.");
   const [formUrl, setFormUrl] = useState("/menu");
   const [formIcono, setFormIcono] = useState("🍀");
@@ -359,7 +359,7 @@ export function PushAdmin({ onMostrarNotificacion }: PushAdminProps) {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          titulo: formTitulo || "🍕 ¡0600Boston Notificaciones Activas!",
+          titulo: formTitulo || "🍕 ¡Trebol Notificaciones Activas!",
           mensaje: formMensaje || "Tu dispositivo está conectado y recibiendo ofertas push en tiempo real.",
           url: formUrl || "/menu",
           icono: formIcono || "🍀",
@@ -526,7 +526,7 @@ export function PushAdmin({ onMostrarNotificacion }: PushAdminProps) {
               <button
                 type="button"
                 onClick={() => {
-                  setFormTitulo("¡Bienvenido a 0600Boston, {nombre}! 🍕🍀");
+                  setFormTitulo("¡Bienvenido a Trebol, {nombre}! 🍕🍀");
                   setFormMensaje("Hola {nombre}, gracias por sumarte a nuestra App. Mirá las pizzas artesanales y promos con descuento para vos hoy.");
                   setFormUrl("/menu");
                   setFormIcono("🍀");
@@ -816,7 +816,7 @@ export function PushAdmin({ onMostrarNotificacion }: PushAdminProps) {
                   </div>
                   <div className="min-w-0 flex-1">
                     <div className="flex items-center justify-between">
-                      <span className="text-[10px] text-emerald-400 font-bold">0600Boston • Ahora</span>
+                      <span className="text-[10px] text-emerald-400 font-bold">Trebol • Ahora</span>
                     </div>
                     <h5 className="font-extrabold text-white text-xs truncate mt-0.5">{tituloPreview}</h5>
                     <p className="text-[11px] text-slate-300 line-clamp-2 mt-0.5 leading-snug">
