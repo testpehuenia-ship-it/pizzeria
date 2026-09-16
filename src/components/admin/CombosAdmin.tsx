@@ -639,7 +639,7 @@ export function CombosAdmin({
                     required
                     value={formNombre}
                     onChange={(e) => setFormNombre(e.target.value)}
-                    placeholder="Ej: Combo Boston: Napolitana 8p + Coca 1.5L"
+                    placeholder="Ej: Combo Trebol: Napolitana 8p + Coca 1.5L"
                     className="w-full bg-[#0d141e] border border-white/10 rounded-xl px-3 py-2 text-xs text-white focus:outline-none focus:border-emerald-400"
                   />
                 </div>

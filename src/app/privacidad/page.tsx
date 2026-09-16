@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState } from "react";
 import Link from "next/link";
@@ -30,7 +30,7 @@ export default function PrivacidadPage() {
           <Link href="/" className="flex items-center gap-2 text-white hover:text-emerald-400 transition-colors">
             <span className="text-xl">🍀</span>
             <span className="font-black text-lg tracking-tight">
-              0600<span className="text-emerald-400">Boston</span>
+              Trebol
             </span>
           </Link>
 

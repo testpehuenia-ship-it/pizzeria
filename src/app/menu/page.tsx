@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect } from "react";
 import { useTiendaStore } from "@/lib/store";
@@ -127,7 +127,7 @@ export default function MenuPage() {
           <Link href="/" className="flex items-center gap-1.5">
             <span className="text-xl">🍀</span>
             <span className="font-black text-lg text-[#14532d] tracking-tight">
-              0600<span className="text-[#15803d]">Boston</span>
+              Trebol
             </span>
           </Link>
 

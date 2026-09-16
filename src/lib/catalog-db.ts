@@ -134,7 +134,7 @@ function generarCombosIniciales(): ComboDataType[] {
   return [
     {
       id: "combo-napolitana-coca",
-      nombre: "Combo Clásico Boston: Napolitana 8p + Coca 1.5L",
+      nombre: "Combo Clásico Trebol: Napolitana 8p + Coca 1.5L",
       descripcion: "Pizza Napolitana grande 8 porciones recién horneada + Coca-Cola 1.5L bien helada",
       pizzaId: "napolitana",
       pizzaNombre: "Napolitana",
@@ -149,10 +149,10 @@ function generarCombosIniciales(): ComboDataType[] {
     },
     {
       id: "combo-especial-patagonia",
-      nombre: "Combo Gourmet: Especial 0600 + Cerveza Patagonia",
-      descripcion: "Nuestra pizza Especial 0600 8 porciones + Cerveza Patagonia Amber Lager 473ml",
+      nombre: "Combo Gourmet: Especial Trebol + Cerveza Patagonia",
+      descripcion: "Nuestra pizza Especial Trebol 8 porciones + Cerveza Patagonia Amber Lager 473ml",
       pizzaId: "especial",
-      pizzaNombre: "Especial 0600",
+      pizzaNombre: "Especial Trebol",
       pizzaTamano: "8",
       pizzaImagen: "/images/pizzas/pizza_base_madera.png",
       bebidaId: "patagonia-473",

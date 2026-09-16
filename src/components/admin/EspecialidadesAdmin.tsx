@@ -332,7 +332,7 @@ export function EspecialidadesAdmin({
             <span>Especialidades de Pizzas ({pizzas.length})</span>
           </h2>
           <p className="text-xs text-slate-400 mt-0.5">
-            Podés modificar nombres (ej. Napolitana Boston), agregar ingredientes con foto, y fijar porciones e importes.
+            Podés modificar nombres (ej. Napolitana Trebol), agregar ingredientes con foto, y fijar porciones e importes.
           </p>
         </div>
 
@@ -571,7 +571,7 @@ export function EspecialidadesAdmin({
                   {formOculto ? "🔴 Oculto" : "🟢 Visible"}
                 </span>
               </div>
-              {/* Nombre de la pizza (ejemplo: Napolitana Boston) */}
+              {/* Nombre de la pizza (ejemplo: Napolitana Trebol) */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <div>
                   <label className="block text-[11px] font-bold uppercase text-emerald-400 mb-1">
@@ -582,7 +582,7 @@ export function EspecialidadesAdmin({
                     required
                     value={formNombre}
                     onChange={(e) => setFormNombre(e.target.value)}
-                    placeholder="Ej: Napolitana Boston"
+                    placeholder="Ej: Napolitana Trebol"
                     className="w-full bg-[#0d141e] border border-white/10 rounded-xl px-3 py-2 text-xs text-white focus:outline-none focus:border-emerald-400"
                   />
                   <span className="text-[10px] text-slate-400 mt-0.5 block">

@@ -1,5 +1,5 @@
-﻿services:
-  boston-app:
+services:
+  trebol-app:
     build:
       context: .
       dockerfile: Dockerfile

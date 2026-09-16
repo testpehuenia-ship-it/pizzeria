@@ -139,7 +139,7 @@ export function PizzaInteractiva({
         {/* Fotografía de la Pizza: foto real de la variedad o base sobre madera */}
         <img
           src={tieneFotoReal ? pizza.imagen : "/images/pizzas/pizza_base_madera.png"}
-          alt={pizza.nombre || "Pizza 0600 Boston artesanal"}
+          alt={pizza.nombre || "Pizza Trebol artesanal"}
           className="w-full h-full object-cover rounded-full pointer-events-none"
         />
 

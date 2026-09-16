@@ -1,4 +1,4 @@
-﻿const sharp = require('sharp');
+const sharp = require('sharp');
 const fs = require('fs');
 const path = require('path');
 
@@ -37,12 +37,12 @@ async function createOgAssets() {
       <rect x="16" y="16" width="1168" height="598" rx="28" fill="none" stroke="#10b981" stroke-width="2.5" stroke-opacity="0.35"/>
 
       <!-- Badge -->
-      <rect x="70" y="90" width="220" height="46" rx="23" fill="#10b981" fill-opacity="0.18" stroke="#10b981" stroke-width="1.5" stroke-opacity="0.6"/>
-      <text x="96" y="120" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="800" fill="#34d399">🍀 0600 BOSTON</text>
+      <rect x="70" y="90" width="180" height="46" rx="23" fill="#10b981" fill-opacity="0.18" stroke="#10b981" stroke-width="1.5" stroke-opacity="0.6"/>
+      <text x="96" y="120" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="800" fill="#34d399">🍀 TREBOL</text>
 
       <!-- Main Brand Title -->
       <text x="70" y="215" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="68" font-weight="900" fill="#ffffff" letter-spacing="-1.5">
-        0600<tspan fill="#34d399">Boston</tspan>
+        Trebol
       </text>
 
       <!-- Subtitle -->
@@ -115,7 +115,7 @@ async function createOgAssets() {
 
       <!-- Brand Header -->
       <text x="400" y="85" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="54" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="-1">
-        0600<tspan fill="#34d399">Boston</tspan>
+        Trebol
       </text>
       <text x="400" y="125" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="800" fill="#a7f3d0" text-anchor="middle">
         Gran Variedad de Pizzas Artesanales

@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
@@ -115,7 +115,7 @@ export default function HomePage() {
         <div className="flex items-center gap-2 bg-black/40 backdrop-blur-md px-3.5 py-1.5 rounded-full border border-emerald-500/40">
           <span className="text-base">🍀</span>
           <span className="text-xs font-black text-white tracking-wide uppercase">
-            0600 Boston
+            Trebol
           </span>
         </div>
 
@@ -175,7 +175,7 @@ export default function HomePage() {
           <div className="text-center fade-in-up">
             <div className="mb-6">
               <h1 className="text-4xl sm:text-5xl font-black text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.9)] tracking-tight">
-                0600<span className="text-emerald-400">Boston</span>
+                Trebol
               </h1>
               <p className="text-xs text-white/90 drop-shadow-md font-semibold mt-1">
                 Gran Variedad de pizzas Artesanales

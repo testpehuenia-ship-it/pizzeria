@@ -384,7 +384,7 @@ export const PIZZAS_DATA: PizzaDataType[] = [
   },
   {
     id: "especial",
-    nombre: "Especial 0600",
+    nombre: "Especial Trebol",
     descripcion: "Salsa de tomate, muzzarella, jamón cocido, huevo duro picado y tiras de morrón",
     precio4: 16000,
     precio8: 32000,
